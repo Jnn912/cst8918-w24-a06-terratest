@@ -1,6 +1,6 @@
 # Define the resource group
 resource "azurerm_resource_group" "rg" {
-  name     = "${var.labelPrefix}-05-RG"  
+  name     = "${var.labelPrefix}rg"  
   location = "EastUS"
 }
 
